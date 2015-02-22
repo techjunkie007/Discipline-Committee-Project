@@ -1,0 +1,56 @@
+body{
+	box-sizing:border-box;
+}
+.container{
+	margin:auto;
+    margin-top:100px;
+	width:350px;
+	border:1px solid #888;
+	background-color:#606060;
+	border-radius:5px;
+	text-align:center;
+}
+.container p{
+	margin:0;
+	padding:10px;
+	color:#fff;
+	font:22px corbel,Consolas;
+	text-align:center;
+	background-color:#222;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.fields{
+	width:240px;
+	margin:25px 15px;
+	position:relative;
+	font:15px Verdana;
+	text-align:center;
+	background-color:#222;
+}
+input[type="text"],input[type="password"]{
+	margin:0;
+	padding:10px;
+	padding-left:35px;
+	background-color:#222;
+	border:none;
+	width:260px;
+	font-family: verdana;
+	color:#cccccc;
+}
+.fields i{
+	position:absolute;
+	left:0;
+	font-size:25px;
+	color:#888;
+	margin:5px;
+}
+input[type="submit"]{
+	margin:15px;
+	padding:10px;
+	color:#ccc;
+	width:200px;
+	border:none;
+	font-family: Verdana;
+	background-color:#008899;
+}

@@ -1,0 +1,118 @@
+@import "https://maxcdn.bootstrapcdn.com/font-family/4.2.0/css/font-awesome.min.css";
+
+body{
+	margin:0;
+}
+.sidebar{
+	width:250px;
+	max-height:100vh;
+	border:1px solid #999;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	padding:0px;
+	background-color:#fff; 
+}
+.sidebar>p{
+	background-color:#008899;
+	margin:0;
+	padding:5px 10px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	font-family:Verdana;
+}
+.sidebar>div{
+	display:none;
+}
+.filter{
+	position:absolute;
+	top:5px;
+	right:5px;
+	color:#fff;
+	cursor:pointer;
+}
+.filter_list{
+	font-family: Verdana;
+	padding:10px 0px;
+}
+.filter_list label{
+	font-size:12px;
+}
+.sidebar_inner{
+	width:248px;
+	max-height:80vh;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#search{
+	width:248px!important;
+	padding:5px;
+}
+#member{
+	width:250px;
+	padding:5px 20px 5px 10px;
+	border-bottom:1px solid #e1e1e1;
+	text-align:left;
+	letter-spacing:1px;
+	cursor:pointer;
+	font-weight:normal!important;
+	font-family:Helvetica,Sans-Serif,Verdana;
+	-webkit-transition:background .5s;
+}
+#name{
+	width:200px;
+}
+input[type="checkbox"]{
+	display:none;
+}
+input[type="checkbox"]+label:before{
+	content:"\f0c8";
+	font-family: "FontAwesome";
+	float:left;
+	margin:5px;
+	font-size:20px;
+	margin-right:5px;
+	color:#008899;
+}
+input[type='checkbox']:checked+label:before{
+	content:"\f14a";
+	font-family: "FontAwesome";
+	float:left;
+	font-size:20px;
+	margin-right:5px;
+}
+#member:hover{
+	background-color:#e5e5e5;
+}
+#student_name{
+	margin:0;
+	font-size:14px;
+	color:#555;
+	font-family:Helvetica,Georgia;
+}
+#student_number{
+	margin:0;
+	color:#888;
+	font-size:12px;
+	text-align:right;
+}
+.sidebar_inner::-webkit-scrollbar-track,
+iframe::-webkit-scrollbar-track,
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.sidebar_inner::-webkit-scrollbar,
+iframe::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+.sidebar_inner::-webkit-scrollbar-thumb,
+iframe::-webkit-scrollbar-thumb
+{
+	background-color: #008899;
+	border: 2px solid #008899;
+}

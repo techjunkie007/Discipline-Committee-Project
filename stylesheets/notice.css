@@ -1,0 +1,98 @@
+body{
+	margin:0;
+	font: 12px Helvetica,Verdana, sans-serif!important;
+	background-color: #ffffcc!important;
+}
+.outer{
+	margin:auto;
+	width:680px;
+	border-bottom:10px solid #008899;
+}
+.outer h1{
+	background-color: #008899;
+	text-align:center;
+	margin:0;
+	padding:5px;
+}
+.inner{
+	padding:20px;
+	border:1px solid rgba(0,0,0,0.2);
+	background-color: #fff;
+}
+textarea{
+	display:none;
+}
+#richTextArea{
+	width:98%;
+	height:200px;
+	font-size:14px;
+	padding:5px;
+	padding-right:0;
+	font-family:verdana,sans-serif,Helvetica;
+}
+label{
+	font-family:Arial,verdana;
+	font-size:16px;
+	color:#006699;
+	margin-bottom:0 !important;
+}
+input[type="text"],select,textarea{
+	padding:3px;
+	font-family: verdana;
+	outline:0;
+	border:1px solid #008899;
+}
+input:focus,textarea:focus{
+	box-shadow: 0px 0px 2px #008899;
+}
+#save,#preview{
+	font-family:Verdana;
+	float:right;
+	width:100px;
+	text-align: center;
+	padding:5px;
+	border:none;
+	font-size:15px;
+	margin:5px;
+	color:#fff;
+	cursor:pointer;
+}
+#save{
+	background-color: #008899;
+}
+#preview{
+	background-color: #008899;
+}
+.ui-datepicker-header{
+	background:#008899;
+	color:#eee;
+}
+.tools div{
+	display:inline-block;
+	width:30px;
+	padding:5px;
+	margin-right:1px;
+	text-align: center;
+	border:1px solid #008899;
+}
+.tools>span select{
+	border:1px solid #008899;
+	padding:5px;
+	margin:2px;
+}
+.tools div i{
+	font-size:15px;
+	color:#008899;
+}
+.active{
+	background-color:#008899;
+	color:#fff;
+}
+.clear{
+	clear:both;
+}
+@media screen and (max-width: 1200px){
+.outer{
+	margin-left:300px;
+}	
+}

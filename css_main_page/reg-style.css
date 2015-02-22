@@ -1,0 +1,53 @@
+body{
+	background-image:url("../images/akgec.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+form{
+	width:325px;
+	margin:auto;
+}
+label{
+	font:15px Verdana;
+}
+input[type="text"]{
+	width:300px;
+	font:15px Verdana;
+	padding:8px 10px;
+}
+select{
+	width:325px;
+	font-family: Verdana;
+	padding:8px 10px;
+}
+.container{
+	width:400px;
+	padding:20px;
+	margin:auto;
+	margin-top:100px;
+	background-color:#fffff0;
+}
+.container p{
+	margin:0;
+	font:25px Verdana;
+	text-align:center;
+}
+.line{
+	width:325px;
+	margin:15px auto;
+	height:1px;
+	border-bottom: 1px solid #999;
+	box-shadow: 0px 2px 2px #ccc;
+}
+input[type="submit"]{
+	padding:8px;
+	width:200px;
+	border:none;
+	color:#fff;
+	font:15px Verdana;
+	background-color:#008899;
+}
+.submit{
+	width:200px;
+	margin:auto;
+}

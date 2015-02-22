@@ -1,0 +1,269 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    font-family: Arial;
+    background:#C8C8C8;
+}
+#big_wrapper
+{
+    width:100%;
+    height:100%;    
+}
+a {
+     
+    font:25px;
+    margin-top:35px;
+    color:#606060;
+    text-align:center;
+    text-decoration:none;
+}
+#range_form
+{
+    margin-left:430px;
+    font:20px calibri;
+    
+}
+#der
+{
+    margin-left:100px;
+}
+#msg_login
+{
+    text-align:center;
+    color:red;
+    padding-top:10px;
+    font:18px corbel,Consolas;
+    
+    
+}
+#generate_report
+{
+    
+    font:25px;
+    margin-top:35px;
+    color:#606060;
+   text-align:center;
+}
+h1#head_text {
+    background:#606060;
+    color:white;
+    text-align:center;
+    font:45px corbel,Consolas;
+    font-weight: 200;
+    padding:12px;
+    }
+   
+#clock_box
+{
+    width:100%;
+    height:25%;
+    position:absolute;
+    text-align: center;
+}
+#clock
+{
+    color:#606060;
+    font:100px courier;
+    margin-top:5%;
+    
+}
+#logout_button a
+{
+    color:white;
+}
+#logout_button
+{
+    font:15px corbel,Consolas;
+    right: 10px;
+    
+}
+#message
+{
+    margin-top:25px;
+    font:20px verdana;
+    color:red;
+    text-align:center;
+}
+#box1
+{
+    width:20%;
+    height:50px;
+    font:24px verdana;
+    padding-left:10px;
+    border:2px solid #606060;
+}
+#box2
+{
+    margin-left:15px;
+    background:#606060;
+    height:52px;
+    color:white;
+    padding:10px;
+    width:15%;
+    font:20px verdana;
+    
+}
+#footer
+{
+    margin-left:47%;
+    margin-top:3%;
+}
+#footer_text
+{
+    margin-left:-50px;
+}
+#image
+{
+    margin-top:3%;
+    margin-left:3%;
+    float:left;
+}
+#inner_box
+{
+   margin-top:3.5%;
+    margin-left:10%;
+    margin-bottom:3.5%;    
+    width:80%;
+    height:320px;
+    background-color:#606060;
+    margin-bottom:0%;
+}
+
+#data1
+{
+    margin-top:5%;
+    float:left;
+    margin-left:15%;
+    
+}
+#info {
+       
+    text-align:center;  
+    color:white;
+    font:35px courier;
+    width:100%;
+}
+#inner_text
+{ margin-left:43%;
+    color:white;
+    font:35px courier;
+}
+#button1
+{
+    padding:15px;
+    font:20px verdana;
+    color:#606060;
+    margin-left:0%;
+    float:left;
+    
+}
+#button21
+{
+    float:left; 
+    margin-top:21px;
+    padding:15px;
+    font:20px verdana;
+    color:#606060;
+    
+    
+}
+#button2
+{
+    float:left; 
+    margin-top:0px;
+    margin-left: 20px;
+    padding:15px;
+    font:20px verdana;
+    color:#606060;
+    
+    
+}
+#forms
+{
+    display:table;
+}
+search_box
+{
+    margin-top:70%;
+}
+#form_id
+{
+    margin-top:35px;
+    text-align: center;
+}
+#message_id
+{
+    margin-top:200px;
+}
+#form1
+{
+    width:100px;
+    margin-left:25px;
+    display:table-cell;
+}
+#form2
+{
+    width:100px;
+    display:table-cell;
+}
+#name
+{
+   font-family:"Tw Cen MT";
+    font-size:45px;
+    color:white;
+}
+#student_no
+{
+    font-family:"Tw Cen MT";
+    font-size:30px;
+    color:white;
+}
+#record
+{
+    margin-top:21px;
+    font-family:"Tw Cen MT";
+    font-size:30px;
+    color:white;
+    margin-left:100px;
+}
+#branch
+{
+    font-family:"Tw Cen MT";
+    font-size:30px;
+    color:white;
+}
+#logout_button{
+	margin:8px;
+	padding:10px;
+	color:#ccc;
+	font-family: Verdana;
+	background-color:#606060;
+}
+
+.register_entry
+{
+    cursor: pointer;
+    background-color: black !important;
+}
+input[type="submit"]
+{
+    cursor: pointer;
+    background-color: #606060;
+    border: none;
+    color:white !important;
+    text-transform: capitalize;
+    border: 1px solid #eee;
+}
+#backLink
+{
+    position:absolute; color:white; float:left;
+    margin:8px;margin-top:22px;
+}
+a
+{
+    padding:7px;
+    border: 1px solid white;
+}
